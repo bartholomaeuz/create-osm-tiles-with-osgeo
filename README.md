@@ -9,6 +9,10 @@ Read through the Readme File on the Project page
 
 ##Clone Project and change to the project directory
 
+<code>git clone https://github.com/gravitystorm/openstreetmap-carto.git</clone>
+
+<code>cd openstreetmap-carto</code>
+
 ##Requirements
 
 <code>sudo apt-get install node-carto mapnik-input-plugin-postgis</code>
