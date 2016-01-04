@@ -5,7 +5,7 @@ The version used in the tuorial was OsGeo 9.0 (Sep. 2015)
 
 ##Requirements
 test1
-    carto project.mml > map.xml
+<code>carto project.mml > map.xml</code>
 tess2    
-    /usr/local/bin/liteserv.py map.xml 
+<code>/usr/local/bin/liteserv.py map.xml</code> 
     
