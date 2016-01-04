@@ -54,7 +54,19 @@ Read through the Readme File on the Project page
 
 Check debug output on server
 
-###Leaflet Map
+####Store generated tiles on Server (Optional)
+
+<code>mkdir ~/cache</code>
+
+<code>/usr/local/bin/liteserv.py -c --cache-path=~/cache map.xml</code> 
+
+
+
+##Leaflet Map
+
+http://leafletjs.com/examples/quick-start-example.html
+
+###Adopt Leaflet Example
 
 <code>var map = L.map('map').setView([45.1, 15.2], 10);</code>
 
