@@ -7,11 +7,18 @@ The version used in the tuorial was OsGeo 9.0 (Sep. 2015)
 
 Read through the Readme File on the Project page
 
-##Clone Project and change to the project directory
+##Download OSM render project
 
-<code>git clone https://github.com/gravitystorm/openstreetmap-carto.git</clone>
 
-<code>cd openstreetmap-carto</code>
+<code>wget https://github.com/gravitystorm/openstreetmap-carto/archive/v2.45.1.zip</code>
+
+<code>unzip v2.45.1.zip</code>
+
+<code>cd openstreetmap-carto-2.45.1</code>
+
+<code>./get-shapefiles.sh </code>
+
+
 
 ##Requirements
 
@@ -47,6 +54,11 @@ Read through the Readme File on the Project page
 ###Convert Project to mapnik File
 
 <code>carto project.mml > map.xml</code>
+
+##Tile Server
+<code>git clone https://github.com/springmeyer/tilelite.git</code>
+<code>cd tilelite/</code>
+<code>sudo python setup.py install</code>
 
 ###Start Simple Tile Server
 
